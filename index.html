@@ -1,0 +1,122 @@
+<!--Author: Gali Kechichian-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalaasangam</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <img class="logo" src="images/image.png" width="200"></img>
+        <ul class="nav-links">
+            <li><a id="home-link">HOME</a></li>
+            <li><a id="about-link" class="">ABOUT</a></li>
+            <li><a class="nav__link" href="gallery.html">GALLERY</a></li>
+            <li><a class="nav__link" href="contact.html">CONTACT</a></li>
+        </ul>
+        <div class="burger">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+    </nav>
+
+    <div id="home" class="filler"></div>
+
+    <div class="section1">
+        <h3 class="intro">"Carry Culture, Wear History: Embrace handbags that
+            weave the rich tapestry of cultural and historical
+            significance into every stitch and fiber.".</h3>
+        <!-- <img class="pic" src="images/mrs. priti lal.png"> -->
+        <p>Welcome to my handbag gallery!</p>
+    </div>
+
+    <div id="featuring" class="feat">
+        <p>Featuring</p>
+    </div>
+
+    <p id="swipe-msg">
+        <i class="fa-solid fa-angles-left"></i>
+        Swipe to reveal
+        <i class="fa-solid fa-angles-right"></i>
+    </p>
+
+    <div id="slideshow-container">
+        <div class="mySlides">
+            <div class="text">Reed Satchel Bag</div>
+            <img src="images/handbags1.jpg">
+        </div>
+
+        <div class="mySlides">
+            <div class="text">Madhubani Tote Bag</div>
+            <img src="images/handbags9.jpg">
+        </div>
+
+        <div class="mySlides">
+            <div class="text">Cotton Warli Design Handbag</div>
+            <img src="images/handbags11.jpg">
+        </div>
+
+        <div class="mySlides">
+            <div class="text">Bear Brown Crochet Handbag</div>
+            <img src="images/handbags3.jpg">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+
+    <a class='view-all' href="gallery.html">View all</a>
+
+
+    <div id="abt-me" class="about-me">
+        <p>About Mrs. Priti Lal</p>
+    </div>
+
+    <div class="section1">
+        <img class="pic" src="images/mrs. priti lal.png">
+        <h3 class="intro">"She is a owner of Kalaasangam. She is from Bhopal (M.P.)
+            Kalaasangam makes and sells a handcrafted product. Basically
+            kalaasangam promotes the cultural & historical significance of
+            products such as Interior Decors, Handbags, Men / Women Wears and
+            many others.
+            <br> <b>Kalaasangam</b> helps people who are in need, teaches them
+            making paintings and other items and how to sell them, so
+            that they can start their own business.<i class="fa-regular fa-face-smile-beam"></i></h3>
+    </div>
+
+    <div class="footer">
+        <h3>Let's talk</h3>
+        <ul class="socials">
+            <li><a target="_blank" href="https://www.instagram.com/_ kalaasangam2015_"><i
+                        class="fa-brands fa-instagram fa-2x"></i></a></li>
+        </ul>
+        <p id="copy" class="copyright"><i class="fa-regular fa-copyright"></i>2023 by Aditi Lal. All rights
+            reserved.</p>
+    </div>
+    <script src="src/navLinks.js"></script>
+    <script src="src/homeSlider.js"></script>
+    <script src="https://kit.fontawesome.com/c9be313216.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
